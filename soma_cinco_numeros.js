@@ -19,12 +19,12 @@ function pedirNumero() {
         }
 
         if (contador < 5) {
-            pedirNumero();  // Continua pedindo até que 5 números sejam inseridos
+            pedirNumero(); 
         } else {
             console.log(`Soma total: ${soma}`);
-            rl.close();  // Fecha a interface após completar o loop
+            rl.close();  
         }
     });
 }
 
-pedirNumero();  // Inicia o processo de pedir números
+pedirNumero();  
